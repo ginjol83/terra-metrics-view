@@ -3,7 +3,7 @@
   <div id="app">
     <sidebar />
     <div id="main-content">
-      <img alt="Vue logo" src="./assets/logo.webp" width="100px" height="100px">
+      <!-- img alt="Vue logo" src="./assets/logo.webp" width="100px" height="100px" -->
       <HelloWorld msg="Terra Metrics"/>
     </div>
   </div>

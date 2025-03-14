@@ -1,6 +1,6 @@
 // filepath: c:\Users\andres\Documents\repositories\terra-metrics-view\src\components\Sidebar.vue
 <template>
-  <div id="sidebar">
+  <div id="topbar">
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#">About</a></li>
@@ -16,24 +16,31 @@ export default {
 </script>
 
 <style>
-#sidebar {
-  width: 200px;
-  height: 100vh;
+#topbar {
+  width: 100%;
+  height: 60px;
   background-color: #f4f4f4;
-  padding: 20px;
-  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   position: fixed;
   top: 0;
   left: 0;
+  display: flex;
+  align-items: center;
 }
-#sidebar ul {
+
+#topbar ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
+  display: flex;
 }
-#sidebar ul li {
-  margin: 20px 0;
+
+#topbar ul li {
+  margin: 0 20px;
 }
-#sidebar ul li a {
+
+#topbar ul li a {
   text-decoration: none;
   color: #333;
 }
