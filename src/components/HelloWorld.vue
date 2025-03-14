@@ -4,49 +4,49 @@
       <v-row>
         <v-col cols="12" sm="6" md="4">
           <v-card class="mx-auto" max-width="400">
-            <v-img :src="require('../assets/citricos.jpg')" height="200px"></v-img>
+            <v-img :src="require('../assets/citricos.jpg')" height="100px"></v-img>
             <v-card-title>
               Valencia Late
             </v-card-title>
             <v-card-text>
-              <h2>Pocas Operaciones</h2>
-              Lonja Citricos Valencia
-              Precio: 0.30 €/kg
+              <p>Lonja Citricos Valencia</p>
+              <p>Precio: 0.30 €/kg</p>
+              <v-chip color="error">Pocas Operaciones</v-chip>
             </v-card-text>
             <v-card-actions>
-              <v-btn>Acción</v-btn>
+              <v-btn>Detalles</v-btn>
             </v-card-actions>
           </v-card>
         </v-col>
         <v-col cols="12" sm="6" md="4">
           <v-card class="mx-auto" max-width="400">
-            <v-img :src="require('../assets/citricos.jpg')" height="200px"></v-img>
+            <v-img :src="require('../assets/citricos.jpg')" height="100px"></v-img>
             <v-card-title>
               Navelina
             </v-card-title>
             <v-card-text>
-              <h2>Alta Demanda</h2>
-              Lonja Citricos Valencia
-              Precio: 0.45 €/kg
+              <p>Lonja Citricos Valencia</p>
+              <p>Precio: 0.45 €/kg</p>
+              <v-chip color="success">Alta Demanda</v-chip>
             </v-card-text>
             <v-card-actions>
-              <v-btn>Acción</v-btn>
+              <v-btn>Detalles</v-btn>
             </v-card-actions>
           </v-card>
         </v-col>
         <v-col cols="12" sm="6" md="4">
           <v-card class="mx-auto" max-width="400">
-            <v-img :src="require('../assets/citricos.jpg')" height="200px"></v-img>
+            <v-img :src="require('../assets/citricos.jpg')" height="100px"></v-img>
             <v-card-title>
               Salustiana
             </v-card-title>
             <v-card-text>
-              <h2>Moderada Demanda</h2>
-              Lonja Citricos Valencia
-              Precio: 0.35 €/kg
+              <p>Lonja Citricos Valencia</p>
+              <p>Precio: 0.35 €/kg</p>
+              <v-chip color="warning">Moderada Demanda</v-chip>
             </v-card-text>
             <v-card-actions>
-              <v-btn>Acción</v-btn>
+              <v-btn>Detalles</v-btn>
             </v-card-actions>
           </v-card>
         </v-col>
